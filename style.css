@@ -1,0 +1,180 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    background: linear-gradient(to bottom,#e668ea 0%,#497be8 100%);
+    /* font-family: 'Courier New', Courier, monospace;	 */
+}
+
+.container {
+    height: 70%;
+    width: 85%;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    background-color: white;
+
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+input {
+    position:absolute;
+    left: 12px;
+    width: 75%;
+    font-size: 23px;
+}
+
+input::placeholder {
+    padding: 20px;
+}
+
+button{
+    position: absolute;
+    left: 82.5%;
+    font-size: 26px;
+    width: 15%;
+    border: 2px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(145, 17, 230);
+}
+
+.pstyle {
+    margin: 0;
+    cursor: pointer;
+    font-size: 28px;
+    position:relative;
+    top: 60px;
+    left: 25px;
+    width: 80%;
+    margin: -15px;
+    background-color: rgb(253, 249, 249);
+}
+
+.clear {
+    position: absolute;
+    top: 67%;
+    left: 64%;
+    font-size: 20px;
+    width: 25%;
+    height: 4%;
+    border: 2px;
+    border-radius: 4px;
+    background-color: rgb(145, 17, 230);
+    color: white;
+}
+
+.b1style {
+    background-color: green;
+    position: relative;
+    top: 43px;
+    left: 62.4%;
+    font-size: 22px;
+    height: 32px;
+}
+
+.b2style {
+    background-color: red;
+    position: relative;
+    top: 43px;
+    left: 62.5%;
+    font-size: 20px;
+    height: 32px;
+    width: 70px;
+}
+
+@media screen and (min-width:1024px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+        margin: 0 auto;
+        background: linear-gradient(to bottom,#e668ea 0%,#497be8 100%);
+        /* font-family: 'Courier New', Courier, monospace;	 */
+    }
+    .container {
+        height: 70%;
+        width: 70%;
+        position: absolute;
+        top: 50px;
+        left: 15%;
+        background-color: white;
+    
+    }
+    
+    h1 {
+        font-size: 60px;
+        text-align: center;
+    }
+    
+    input {
+        position:absolute;
+        left: 45px;
+        width: 75%;
+        font-size: 26px;
+    }
+    
+    input::placeholder {
+        padding: 20px;
+    }
+    
+    button{
+        position: absolute;
+        left: 84%;
+        font-size: 26px;
+        width: 10%;
+        height: 6.2%;
+        border: 2px;
+        border-radius: 4px;
+        color: white;
+        background-color: rgb(145, 17, 230);
+    }
+    
+    .pstyle {
+        margin: 0;
+        cursor: pointer;
+        font-size: 35px;
+        position:relative;
+        top: 70px;
+        left: 60px;
+        width: 80%;
+        margin: -15px;
+        background-color: rgb(253, 249, 249);
+    }
+    
+    .clear {
+        position: absolute;
+        top: 70%;
+        left: 70%;
+        font-size: 20px;
+        width: 12%;
+        height: 4%;
+        border: 2px;
+        border-radius: 4px;
+        background-color: rgb(145, 17, 230);
+        color: white;
+    }
+    
+    .b1style {
+        background-color: green;
+        position: relative;
+        top: 44px;
+        left: 73.5%;
+        font-size: 22px;
+        height: 40px;
+    }
+    
+    .b2style {
+        background-color: red;
+        position: relative;
+        top: 44px;
+        left: 73.5%;
+        font-size: 22px;
+        height: 40px;
+        width: 75px;
+    }
+
+}    
